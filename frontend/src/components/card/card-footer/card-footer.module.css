@@ -1,0 +1,5 @@
+.card-footer-container {
+    border-top: 1px solid black;
+    display: flow-root;
+    padding: 1.5rem;
+}

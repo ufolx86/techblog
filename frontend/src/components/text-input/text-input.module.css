@@ -1,0 +1,54 @@
+
+.textInputLabel {
+    display:block;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    font-size: 1rem;
+    line-height: 1.15rem;
+    margin-bottom: 0.5rem;
+    --tb-text-opacity: 1;
+    color: rgba(31,41,55,var(--tb-text-opacity));
+}
+
+.textInputRequired {
+    --tb-text-opacity: 1;
+    clor: rgb(220,38,38,var(--tb-text-opacity));
+}
+
+.textInputWrapper {
+    margin-top: 0.25rem;
+    position: relative;
+    display: flex;
+
+}
+
+.textInput {
+    --tb-bg-opacity: 1;
+    background-color: rgba(255,255,255,var(--tb-bg-opacity));
+    font-family: 'Poppins',sans-serif;
+    --tb-border-opacity: 1;
+    border-color: rgba(0,0,0,var(--tb-border-opacity));
+    border-width: 2px;
+    padding: 0.75rem 1rem;
+    --tb-text-opacity: 1;
+    color: rgba(31,51,55,var(--tb-text-opacity));
+    width: 100%;
+    min-width: 0px;
+    font-size: 1rem;
+}
+
+.textInput:focus {
+    --tb-border-opacity: 1;
+    border-color: rgba(107,114,128,var(--tb-border-opacity));
+    outline: transparent solid 2px;
+    outline-offset: 2px;
+    --tb-shadow: 0px 0px 7px 0px rgba(0 0 0 /40%);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.42);
+    -webkit-box-shadow: 0px 0px 7px 0px rgb(0 0 0 / 40%);
+    -moz-box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
+    box-shadow: var(--tb-shadow);
+}
+
+.textInput::placeHolder {
+    color: rgba(107,114,128,1)
+}

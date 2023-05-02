@@ -1,0 +1,19 @@
+fragment PostSnippet on Post {
+    id
+    title
+    featuredImage
+    extract
+    content
+    points
+    voteStatus
+    creatorId
+    creator {
+        id
+        firstName
+        lastName
+        email
+        username
+        bio
+        pictureUrl
+    }
+}
